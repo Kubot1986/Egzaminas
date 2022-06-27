@@ -1,0 +1,89 @@
+/* ++++++Body++++++ */
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* +++++++++Header+++++++++++ */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  padding-bottom: 0;
+  min-width: none;
+  flex-basis: content;
+}
+header img {
+  width: 150px;
+}
+header nav a {
+  text-decoration: none;
+  color: grey;
+  display: none;
+}
+
+header nav a:last-child {
+  color: rgb(234, 133, 150);
+}
+
+header .fa-solid {
+  font-size: 25px;
+}
+/* +++++++++++top_section++++++++++ */
+.top_section {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.top_section article h5 {
+  color: rgb(234, 133, 150);
+  margin-bottom: 0;
+}
+.top_section article h1 {
+  margin-bottom: 0;
+  font-weight: 900;
+}
+.top_section article p {
+  color: grey;
+  line-height: 20px;
+  font-size: 12px;
+}
+.top_section article button {
+  background-color: white;
+  border-color: rgb(226, 137, 43);
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.top_section img {
+  width: 200%;
+  overflow: auto;
+}
+/* ++++++BANNER1++++ */
+.banner1 {
+  background-image: url(./img/background.svg);
+  background-size: 200%;
+  padding: 40px 10px 10px 20px;
+  background-position: center;
+}
+.banner1 h2 {
+  font-size: 30px;
+}
+.banner1 p {
+  color: rgb(69, 66, 66);
+}
+/* ++++++++++++BANNER2++++++ */
+.banner2 img:nth-child(4) {
+  display: none;
+}
+.banner2 {
+  display: grid;
+  place-items: left;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+.banner2 img {
+}
+/* ++++++++++MID_SECTION++++++++ */
