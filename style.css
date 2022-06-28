@@ -33,7 +33,7 @@ header .fa-solid {
 .top_section {
   padding: 5%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 .top_section article h5 {
   color: rgb(234, 133, 150);
@@ -58,15 +58,18 @@ header .fa-solid {
 }
 .top_section img {
   width: auto;
+  margin-left: -60px;
+  margin-top: -30px;
   max-width: 300px;
   overflow: auto;
 }
 /* ++++++BANNER1++++ */
 .banner1 {
   background-image: url(./img/background.svg);
-  background-size: 200%;
+  background-size: cover;
+
   padding: 40px 10px 10px 20px;
-  background-position: center;
+  background-position: left;
 }
 .banner1 h2 {
   font-size: 30px;
@@ -165,7 +168,10 @@ table tr th:last-child {
   font-weight: 600;
 }
 .bot_section img {
-  width: auto;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: -10px;
+
   overflow: auto;
 }
 /* +++++++++++++SOCIAL+++++++++++ */
